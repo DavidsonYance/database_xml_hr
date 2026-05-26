@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hr_database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+             xsi:noNamespaceSchemaLocation="hr_database.xsd">
+
+  <regions>
+    <region id="1">
+      <region_name>Europe</region_name>
+    </region>
+    <region id="2">
+      <region_name>Americas</region_name>
+    </region>
+    <region id="3">
+      <region_name>Asia</region_name>
+    </region>
+    <region id="4">
+      <region_name>Middle East and Africa</region_name>
+    </region>
+  </regions>
+
+  <countries>
+    <country id="AR">
+      <country_name>Argentina</country_name>
+      <region_id>2</region_id>
+    </country>
+    <country id="AU">
+      <country_name>Australia</country_name>
+      <region_id>3</region_id>
+    </country>
+    <country id="BE">
+      <country_name>Belgium</country_name>
+      <region_id>1</region_id>
+    </country>
+    <country id="BR">
+      <country_name>Brazil</country_name>
+      <region_id>2</region_id>
+    </country>
+    <country id="CA">
+      <country_name>Canada</country_name>
+      <region_id>2</region_id>
+    </country>
+    <country id="CH">
+      <country_name>Switzerland</country_name>
+      <region_id>1</region_id>
+    </country>
+    <country id="CN">
+      <country_name>China</country_name>
+      <region_id>3</region_id>
+    </country>
+    <country id="DE">
+      <country_name>Germany</country_name>
+      <region_id>1</region_id>
+    </country>
+    <country id="DK">
+      <country_name>Denmark</country_name>
+      <region_id>1</region_id>
+    </country>
+    <country id="EG">
+      <country_name>Egypt</country_name>
+      <region_id>4</region_id>
+    </country>
+  </countries>
+
+  <locations>
+    <location id="1000">
+      <street_address>1297 Via Cola di Rie</street_address>
+      <postal_code>00989</postal_code>
+      <city>Roma</city>
+      <country_id>IT</country_id>
+    </location>
+    <location id="1100">
+      <street_address>93091 Calle della Testa</street_address>
+      <postal_code>10934</postal_code>
+      <city>Venice</city>
+      <country_id>IT</country_id>
+    </location>
+    <location id="1200">
+      <street_address>2017 Shinjuku-ku</street_address>
+      <postal_code>1689</postal_code>
+      <city>Tokyo</city>
+      <state_province>Tokyo Prefecture</state_province>
+      <country_id>JP</country_id>
+    </location>
+    <location id="1300">
+      <street_address>9450 Kamiya-cho</street_address>
+      <postal_code>6823</postal_code>
+      <city>Hiroshima</city>
+      <country_id>JP</country_id>
+    </location>
+    <location id="1400">
+      <street_address>2014 Jabberwocky Rd</street_address>
+      <postal_code>26192</postal_code>
+      <city>Southlake</city>
+      <state_province>Texas</state_province>
+      <country_id>US</country_id>
+    </location>
+    <location id="1500">
+      <street_address>2011 Interiors Blvd</street_address>
+      <postal_code>99236</postal_code>
+      <city>South San Francisco</city>
+      <state_province>California</state_province>
+      <country_id>US</country_id>
+    </location>
+    <location id="1600">
+      <street_address>2007 Zagora St</street_address>
+      <postal_code>50090</postal_code>
+      <city>South Brunswick</city>
+      <state_province>New Jersey</state_province>
+      <country_id>US</country_id>
+    </location>
+    <location id="1700">
+      <street_address>2004 Charade Rd</street_address>
+      <postal_code>98199</postal_code>
+      <city>Seattle</city>
+      <state_province>Washington</state_province>
+      <country_id>US</country_id>
+    </location>
+    <location id="1800">
+      <street_address>147 Spadina Ave</street_address>
+      <postal_code>M5V 2L7</postal_code>
+      <city>Toronto</city>
+      <state_province>Ontario</state_province>
+      <country_id>CA</country_id>
+    </location>
+    <location id="1900">
+      <street_address>6092 Boxwood St</street_address>
+      <postal_code>YSW 9T2</postal_code>
+      <city>Whitehorse</city>
+      <state_province>Yukon</state_province>
+      <country_id>CA</country_id>
+    </location>
+  </locations>
+
+  <departments>
+    <department id="10">
+      <department_name>Administration</department_name>
+      <manager_id>200</manager_id>
+      <location_id>1700</location_id>
+    </department>
+    <department id="20">
+      <department_name>Marketing</department_name>
+      <manager_id>201</manager_id>
+      <location_id>1800</location_id>
+    </department>
+    <department id="30">
+      <department_name>Purchasing</department_name>
+      <manager_id>114</manager_id>
+      <location_id>1700</location_id>
+    </department>
+    <department id="40">
+      <department_name>Human Resources</department_name>
+      <manager_id>203</manager_id>
+      <location_id>2400</location_id>
+    </department>
+    <department id="50">
+      <department_name>Shipping</department_name>
+      <manager_id>121</manager_id>
+      <location_id>1500</location_id>
+    </department>
+    <department id="60">
+      <department_name>IT</department_name>
+      <manager_id>103</manager_id>
+      <location_id>1400</location_id>
+    </department>
+    <department id="70">
+      <department_name>Public Relations</department_name>
+      <manager_id>204</manager_id>
+      <location_id>2700</location_id>
+    </department>
+    <department id="80">
+      <department_name>Sales</department_name>
+      <manager_id>145</manager_id>
+      <location_id>2500</location_id>
+    </department>
+    <department id="90">
+      <department_name>Executive</department_name>
+      <manager_id>100</manager_id>
+      <location_id>1700</location_id>
+    </department>
+    <department id="100">
+      <department_name>Finance</department_name>
+      <manager_id>108</manager_id>
+      <location_id>1700</location_id>
+    </department>
+  </departments>
+
+  <jobs>
+    <job id="AD_PRES">
+      <job_title>President</job_title>
+      <min_salary>20080</min_salary>
+      <max_salary>40000</max_salary>
+    </job>
+    <job id="AD_VP">
+      <job_title>Administration Vice President</job_title>
+      <min_salary>15000</min_salary>
+      <max_salary>30000</max_salary>
+    </job>
+    <job id="AD_ASST">
+      <job_title>Administration Assistant</job_title>
+      <min_salary>3000</min_salary>
+      <max_salary>6000</max_salary>
+    </job>
+    <job id="FI_MGR">
+      <job_title>Finance Manager</job_title>
+      <min_salary>8200</min_salary>
+      <max_salary>16000</max_salary>
+    </job>
+    <job id="FI_ACCOUNT">
+      <job_title>Accountant</job_title>
+      <min_salary>4200</min_salary>
+      <max_salary>9000</max_salary>
+    </job>
+    <job id="AC_MGR">
+      <job_title>Accounting Manager</job_title>
+      <min_salary>8200</min_salary>
+      <max_salary>16000</max_salary>
+    </job>
+    <job id="AC_ACCOUNT">
+      <job_title>Public Accountant</job_title>
+      <min_salary>4200</min_salary>
+      <max_salary>9000</max_salary>
+    </job>
+    <job id="SA_MAN">
+      <job_title>Sales Manager</job_title>
+      <min_salary>10000</min_salary>
+      <max_salary>20080</max_salary>
+    </job>
+    <job id="SA_REP">
+      <job_title>Sales Representative</job_title>
+      <min_salary>6000</min_salary>
+      <max_salary>12008</max_salary>
+    </job>
+    <job id="PU_MAN">
+      <job_title>Purchasing Manager</job_title>
+      <min_salary>8000</min_salary>
+      <max_salary>15000</max_salary>
+    </job>
+  </jobs>
+
+  <employees>
+    <employee id="100">
+      <first_name>Steven</first_name>
+      <last_name>King</last_name>
+      <email>SKING</email>
+      <phone_number>515.123.4567</phone_number>
+      <hire_date>17/06/03</hire_date>
+      <job_id>AD_PRES</job_id>
+      <salary>24000</salary>
+      <department_id>90</department_id>
+    </employee>
+    <employee id="101">
+      <first_name>Neena</first_name>
+      <last_name>Kochhar</last_name>
+      <email>NKOCHHAR</email>
+      <phone_number>515.123.4568</phone_number>
+      <hire_date>21/09/05</hire_date>
+      <job_id>AD_VP</job_id>
+      <salary>17000</salary>
+      <manager_id>100</manager_id>
+      <department_id>90</department_id>
+    </employee>
+    <employee id="102">
+      <first_name>Lex</first_name>
+      <last_name>De Haan</last_name>
+      <email>LDEHAAN</email>
+      <phone_number>515.123.4569</phone_number>
+      <hire_date>13/01/01</hire_date>
+      <job_id>AD_VP</job_id>
+      <salary>17000</salary>
+      <manager_id>100</manager_id>
+      <department_id>90</department_id>
+    </employee>
+    <employee id="103">
+      <first_name>Alexander</first_name>
+      <last_name>Hunold</last_name>
+      <email>AHUNOLD</email>
+      <phone_number>590.423.4567</phone_number>
+      <hire_date>03/01/06</hire_date>
+      <job_id>IT_PROG</job_id>
+      <salary>9000</salary>
+      <manager_id>102</manager_id>
+      <department_id>60</department_id>
+    </employee>
+    <employee id="104">
+      <first_name>Bruce</first_name>
+      <last_name>Ernst</last_name>
+      <email>BERNST</email>
+      <phone_number>590.423.4568</phone_number>
+      <hire_date>21/05/07</hire_date>
+      <job_id>IT_PROG</job_id>
+      <salary>6000</salary>
+      <manager_id>103</manager_id>
+      <department_id>60</department_id>
+    </employee>
+    <employee id="105">
+      <first_name>David</first_name>
+      <last_name>Austin</last_name>
+      <email>DAUSTIN</email>
+      <phone_number>590.423.4569</phone_number>
+      <hire_date>25/06/05</hire_date>
+      <job_id>IT_PROG</job_id>
+      <salary>4800</salary>
+      <manager_id>103</manager_id>
+      <department_id>60</department_id>
+    </employee>
+    <employee id="106">
+      <first_name>Valli</first_name>
+      <last_name>Pataballa</last_name>
+      <email>VPATABAL</email>
+      <phone_number>590.423.4560</phone_number>
+      <hire_date>05/02/06</hire_date>
+      <job_id>IT_PROG</job_id>
+      <salary>4800</salary>
+      <manager_id>103</manager_id>
+      <department_id>60</department_id>
+    </employee>
+    <employee id="107">
+      <first_name>Diana</first_name>
+      <last_name>Lorentz</last_name>
+      <email>DLORENTZ</email>
+      <phone_number>590.423.5567</phone_number>
+      <hire_date>07/02/07</hire_date>
+      <job_id>IT_PROG</job_id>
+      <salary>4200</salary>
+      <manager_id>103</manager_id>
+      <department_id>60</department_id>
+    </employee>
+    <employee id="108">
+      <first_name>Nancy</first_name>
+      <last_name>Greenberg</last_name>
+      <email>NGREENBE</email>
+      <phone_number>515.124.4569</phone_number>
+      <hire_date>17/08/02</hire_date>
+      <job_id>FI_MGR</job_id>
+      <salary>12000</salary>
+      <manager_id>101</manager_id>
+      <department_id>100</department_id>
+    </employee>
+    <employee id="109">
+      <first_name>Daniel</first_name>
+      <last_name>Faviet</last_name>
+      <email>DFAVIET</email>
+      <phone_number>515.124.4169</phone_number>
+      <hire_date>16/08/02</hire_date>
+      <job_id>FI_ACCOUNT</job_id>
+      <salary>9000</salary>
+      <manager_id>108</manager_id>
+      <department_id>100</department_id>
+    </employee>
+  </employees>
+
+  <job_history>
+    <history_record id="102">
+      <start_date>13/01/01</start_date>
+      <end_date>24/07/06</end_date>
+      <job_id>IT_PROG</job_id>
+      <department_id>60</department_id>
+    </history_record>
+    <history_record id="101">
+      <start_date>21/09/97</start_date>
+      <end_date>27/10/01</end_date>
+      <job_id>AC_ACCOUNT</job_id>
+      <department_id>110</department_id>
+    </history_record>
+    <history_record id="101">
+      <start_date>28/10/01</start_date>
+      <end_date>15/03/05</end_date>
+      <job_id>AC_MGR</job_id>
+      <department_id>110</department_id>
+    </history_record>
+    <history_record id="201">
+      <start_date>17/02/04</start_date>
+      <end_date>19/12/07</end_date>
+      <job_id>MK_REP</job_id>
+      <department_id>20</department_id>
+    </history_record>
+    <history_record id="114">
+      <start_date>24/03/06</start_date>
+      <end_date>31/12/07</end_date>
+      <job_id>ST_CLERK</job_id>
+      <department_id>50</department_id>
+    </history_record>
+    <history_record id="122">
+      <start_date>01/01/07</start_date>
+      <end_date>31/12/07</end_date>
+      <job_id>ST_CLERK</job_id>
+      <department_id>50</department_id>
+    </history_record>
+    <history_record id="200">
+      <start_date>17/09/95</start_date>
+      <end_date>17/06/01</end_date>
+      <job_id>AD_ASST</job_id>
+      <department_id>90</department_id>
+    </history_record>
+    <history_record id="176">
+      <start_date>24/03/06</start_date>
+      <end_date>31/12/06</end_date>
+      <job_id>SA_REP</job_id>
+      <department_id>80</department_id>
+    </history_record>
+    <history_record id="176">
+      <start_date>01/01/07</start_date>
+      <end_date>31/12/07</end_date>
+      <job_id>SA_MAN</job_id>
+      <department_id>80</department_id>
+    </history_record>
+    <history_record id="200">
+      <start_date>01/07/02</start_date>
+      <end_date>31/12/06</end_date>
+      <job_id>AC_ACCOUNT</job_id>
+      <department_id>90</department_id>
+    </history_record>
+  </job_history>
+
+</hr_database>
